@@ -1,0 +1,10 @@
+lucky,kuqe,4,family,1,True,3
+lucky,kuqe,4,family,1,True,3
+lucky,kuqe,4,family,1,True,3
+lucky,kuqe,4,family,1,True,3
+lucky,kuqe,4,family,1,True,3
+lucky,kuqe,4,family,1,True,3
+lucky,kuqe,4,family,1,True,3
+lucky,kuqe,4,family,1,True,3
+lucky,kuqe,4,family,1,True,3
+lucky,kuqe,4,family,1,True,3
