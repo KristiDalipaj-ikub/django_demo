@@ -94,15 +94,6 @@ class Animal(models.Model):
         return f"{self.name} {self.age}"
 
 
-# class User(AbstractUser):
-#
-#     first_name = models.CharField(max_length=100)
-#
-# class Test(models.Model):
-#
-#     test = models.ForeignKey('Test', on_delete=models.CASCADE,null=True)
-#     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='user_test')
-
 def generate_data():
     data = ['gjitar', 'amfib', 'peshq']
     f1 = open('data.txt')
@@ -123,21 +114,3 @@ def generate_data():
         """....."""""
 
         Animal.objects.create(**animal)
-
-
-"""
-User1, User2,User3
-
-Test1(User1), Test2(test=Test1,user=user2)
-
-User2.user_test.all()
-
-"""
-
-"""
-field_name_set
-p = Post.objects.get(id=10)
-p.comments.all()
-----
-p.comments_set.all()
-"""
